@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+
+}
+*, *:before, *after {
+    box-sizing: inherit;
+}
+
+
+
+
+nav li a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+nav li a:visited {
+    color: black;
+    background-color: transparent;
+  }
+nav li a:active {
+    color: black;
+    background-color: transparent;
+  }
+  nav li a:hover {
+    color: rgb(84, 140, 84);
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+
+}
+nav ul {
+    display: flex;
+    padding-left: 10px;
+    margin-right: 3px;
+
+}
+nav ul li {
+    display:inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 15px;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+div h1 {
+    display:inline-block;
+    width: 4%;
+    height: 10%;
+    text-align: center;
+}
+
+.background {
+    background-image: url(https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    background-position: bottom center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+article h1 {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+article img {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+main {
+    width: 100%;
+}
+.flexible {
+    display: flex;
+    flex-direction: row; 
+}
+.items {
+    display: block;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    width: 100%;
+    height: 350px;
+
+}
+
+div audio {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    padding: 30px;
+    height: 300px;
+    color: white;
+    margin-top: 200px;
+    
+}
+
+
+footer a:link {
+    color: rgb(241, 244, 239);
+    background-color: transparent;
+    text-decoration: none;
+}
+footer a:visited {
+    color: rgb(241, 244, 239);
+    background-color: transparent;
+    text-decoration: none;
+  }
+footer a:hover {
+    color: rgb(84, 140, 84);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+footer a:active {
+    color: rgb(241, 244, 239);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
+.flexible2 {
+    display: flex;
+    flex-direction: row;
+}
+.items2 {
+    text-align: center;
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    height: 350px;
+
+}
+
